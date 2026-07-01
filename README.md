@@ -133,7 +133,7 @@ The website is fully responsive and optimized for:
 Clone the repository:
 
 ```bash
-git clone https://github.com/yourusername/travel-voyago-website.git
+git clone https://github.com/suhaassarabu/voyago-travel-website.git
 ```
 
 Open the project folder:
