@@ -175,3 +175,26 @@ Frontend Website Project
 ## 📄 License
 
 This project was created for educational purposes as part of the **MANTRA 2026 Summer School Frontend Website Assignment**.
+
+## 📌 Conclusion
+
+Voyago is a responsive and user-friendly travel website developed using HTML5, CSS3, and JavaScript. The project demonstrates modern frontend development practices, including responsive web design, basic SEO implementation, interactive JavaScript features, and an intuitive user interface. It provides travelers with an engaging platform to explore destinations, browse tour packages, view travel galleries, and submit booking enquiries. This project successfully fulfills the objectives of the MANTRA 2026 Summer School Frontend Website Assignment while showcasing practical frontend development skills.
+
+---
+
+## 🚀 Future Enhancements
+
+The following features can be added in future versions of the project:
+
+- 🔐 User registration and secure login system
+- 💳 Online payment gateway integration
+- 📅 Real-time tour and hotel booking system
+- 🌍 Interactive maps using Google Maps API
+- 🤖 AI-powered travel recommendation chatbot
+- ⭐ Customer reviews and ratings for destinations
+- ❤️ Wishlist and favorite destinations feature
+- 🔎 Advanced search and filtering options
+- 🌐 Multi-language support
+- 📱 Progressive Web App (PWA) support for offline access
+- 📧 Email confirmation and booking notifications
+- ☁️ Backend integration with a database for dynamic content management
