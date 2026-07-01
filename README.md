@@ -12,7 +12,7 @@ A modern, responsive travel frontend website built using **HTML5, CSS3, and Java
 
 ## 📂 GitHub Repository
 
-🔗 https://github.com/yourusername/travel-voyago-website
+🔗 [https://github.com/yourusername/travel-voyago-website](https://github.com/suhaassarabu/voyago-travel-website)
 
 ---
 
