@@ -139,7 +139,7 @@ git clone https://github.com/suhaassarabu/voyago-travel-website.git
 Open the project folder:
 
 ```bash
-cd travel-voyago-website
+cd voyago-travel-website
 ```
 
 Open **index.html** in your browser.
