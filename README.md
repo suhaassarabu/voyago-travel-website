@@ -1,6 +1,6 @@
 # 🌍 Voyago – Explore Beyond Borders
 
-A modern, responsive travel website built using **HTML5, CSS3, and JavaScript**. Voyago helps travelers explore exciting destinations, browse tour packages, view travel galleries, and submit booking enquiries through an interactive and user-friendly interface.
+A modern, responsive travel frontend website built using **HTML5, CSS3, and JavaScript**. Voyago helps travelers explore exciting destinations, browse tour packages, view travel galleries, and submit booking enquiries through an interactive and user-friendly interface.
 
 ---
 
