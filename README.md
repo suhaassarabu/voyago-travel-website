@@ -70,8 +70,6 @@ travel-voyago-website/
 ├── style.css
 ├── script.js
 │
-├── images/
-│
 └── README.md
 ```
 
