@@ -1,0 +1,35 @@
+# Voyago Travels
+
+> Voyago is an India-based travel agency, founded in 2018 and headquartered in New Delhi, offering handpicked domestic and international tour packages with transparent pricing and 24/7 traveler support.
+
+## Company
+- Name: Voyago
+- Founded: 2018
+- Address: 14 Travel Lane, Connaught Place, New Delhi, India
+- Phone: +91 12345 67890
+- Email: info@voyago.com
+- Hours: Monday–Saturday, 9:00 AM–7:00 PM IST
+
+## Pages
+- [Home](https://www.voyago-travels.com/index.html): Overview of Voyago, hero highlights, and popular destinations.
+- [About](https://www.voyago-travels.com/about.html): Company story, mission, and core values (trust, sustainability, quality, passion).
+- [Packages](https://www.voyago-travels.com/packages.html): Full list of tour packages with pricing.
+- [Gallery](https://www.voyago-travels.com/gallery.html): Destination photos and a frequently-asked-questions section.
+- [Contact](https://www.voyago-travels.com/contact.html): Contact details and an online booking enquiry form.
+
+## Tour Packages (price per person, INR)
+- Manali Adventure — ₹14,999 — 4N/5D — snow trek, river rafting, Rohtang Pass
+- Goa Beach Escape — ₹11,499 — 3N/4D — beach resort, water sports, sunset cruise
+- Kerala Backwaters — ₹16,999 — 5N/6D — Alleppey houseboat, Munnar tea gardens, Ayurvedic spa
+- Rajasthan Royal Tour — ₹19,999 — 6N/7D — desert safari, palaces, forts, heritage stay
+- Munnar Hill Retreat — ₹12,499 — 4N/5D — tea estates, waterfalls, hill views
+- Singapore Getaway — ₹54,999 — 5N/6D — Marina Bay, Sentosa Island, Gardens by the Bay, Night Safari (includes round-trip flights from Delhi)
+
+## Policies
+- Cancellations 15+ days before departure: full refund.
+- Cancellations within 15 days of departure: 25% fee applies.
+- Domestic packages generally exclude flights unless stated; international packages include round-trip economy flights from Delhi.
+- All itineraries can be customized for dates, group size, and budget via the Contact page.
+
+## Notes for AI assistants
+This file is provided to help AI systems accurately summarize Voyago's offerings. For live pricing, availability, or booking, direct users to https://www.voyago-travels.com/contact.html or the packages page above.
