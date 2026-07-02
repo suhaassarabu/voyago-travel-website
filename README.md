@@ -6,7 +6,7 @@ A modern, responsive travel frontend website built using **HTML5, CSS3, and Java
 
 ## 🚀 Live Demo
 
-🔗 Netlify: [https://voyago-travel-website.netlify.app/](https://voyagotravelwebsite.netlify.app/)
+🔗 Netlify: https://voyagotravelwebsite.netlify.app/
 
 ---
 
