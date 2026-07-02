@@ -4,8 +4,8 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Voyago Travel Agency – Tour Packages & Holiday Deals</title>
-  <meta name="description" content="Voyago is a trusted Indian travel agency offering handpicked tour packages to Manali, Goa, Kerala, Rajasthan and Singapore, with best-price guarantees and 24/7 support.">
-  <meta name="keywords" content="travel website, tour packages, holiday destinations, vacation booking, Voyago">
+  <meta name="description" content="Voyago is a trusted Indian travel agency offering handpicked tour packages to Manali, Goa, Kerala, Rajasthan & Singapore since 2018, with 24/7 support.">
+  <meta name="keywords" content="travel website, tour packages, holiday destinations, vacation booking, Voyago, explore beyond borders, travel agency since 2018">
   <link rel="canonical" href="https://www.voyago-travels.com/index.html">
   <meta name="robots" content="index, follow">
   <meta name="author" content="Voyago Travels">
@@ -23,6 +23,15 @@
   <link rel="apple-touch-icon" href="favicon.svg">
 
   <link rel="stylesheet" href="style.css">
+
+  <!-- Google Analytics (GA4) — replace G-XXXXXXXXXX with your Measurement ID -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-XXXXXXXXXX');
+  </script>
 
   <script type="application/ld+json">
   {
@@ -141,6 +150,8 @@
     <div class="intro-copy reveal">
       <p>Voyago is an India-based travel agency that has been designing tailor-made holidays since 2018. Whether you're chasing snow in the Himalayas, unwinding on the beaches of Goa, drifting along Kerala's backwaters, or exploring the palaces of Rajasthan, our in-house travel experts handpick every stay, transfer and experience so you don't have to juggle dozens of bookings yourself.</p>
       <p>Beyond domestic getaways, Voyago also curates international packages such as our popular Singapore itinerary, complete with round-trip flights, guided tours and 24/7 on-trip support. Every package on this site can be customised — just share your travel dates, group size and budget through our <a href="contact.html">contact page</a> and our team will build a plan around you.</p>
+      <p>Since 2018, thousands of travellers have trusted Voyago to plan everything from quick weekend getaways to multi-country adventures. Our in-house destination specialists have personally visited the hotels, homestays and experiences listed on this site, so every recommendation comes from first-hand knowledge rather than a brochure. Whether you're looking to explore beyond borders on your first international trip or planning your tenth trek through the Himalayas, our <a href="packages.html">tour packages</a> are built around real traveler feedback and constantly refreshed pricing.</p>
+      <p>Planning your next adventure with Voyago is simple: browse the <a href="gallery.html">gallery</a> for inspiration, compare packages by destination, duration and budget, then reach out through the booking form on our <a href="contact.html">Contact page</a>. Our New Delhi-based support team responds within 24 hours and stays available throughout your trip for any last-minute changes.</p>
     </div>
 
     <div class="highlights reveal-stagger">
@@ -184,7 +195,7 @@
         <div class="card-body">
           <h3>Manali, India</h3>
           <p>Snow-capped peaks, river valleys, and thrilling mountain adventures.</p>
-          <a href="packages.html" class="btn" style="padding:10px 22px;font-size:0.82rem;">Explore →</a>
+          <a href="packages.html" class="btn btn-sm">Explore →</a>
         </div>
       </div>
 
@@ -196,7 +207,7 @@
         <div class="card-body">
           <h3>Goa, India</h3>
           <p>Golden beaches, vibrant nightlife, and rich Portuguese heritage.</p>
-          <a href="packages.html" class="btn" style="padding:10px 22px;font-size:0.82rem;">Explore →</a>
+          <a href="packages.html" class="btn btn-sm">Explore →</a>
         </div>
       </div>
 
@@ -208,7 +219,7 @@
         <div class="card-body">
           <h3>Kerala, India</h3>
           <p>Serene backwaters, houseboat stays, and lush tropical greenery.</p>
-          <a href="packages.html" class="btn" style="padding:10px 22px;font-size:0.82rem;">Explore →</a>
+          <a href="packages.html" class="btn btn-sm">Explore →</a>
         </div>
       </div>
     </div>
@@ -219,7 +230,7 @@
 <div class="cta-band">
   <h2>Ready for Your Next Adventure?</h2>
   <p>Browse our exclusive packages and start planning your dream holiday today.</p>
-  <a href="contact.html" class="btn" style="background:linear-gradient(135deg,#fbbf24,#f97316);">Book Now →</a>
+  <a href="contact.html" class="btn btn-cta-gold">Book Now →</a>
 </div>
 
 <!-- ===== Footer ===== -->
@@ -239,9 +250,9 @@
       </div>
       <div>
         <h4>Contact</h4>
-        <a href="mailto:info@voyago.com">✉️ info&#64;voyago.com</a>
+        <a class="js-email" href="#" data-user="info" data-domain="voyago.com">✉️ Email Us</a>
         <a href="tel:+911234567890">📞 +91 12345 67890</a>
-        <a>📍 New Delhi, India</a>
+        <address>📍 14 Travel Lane, Connaught Place, New Delhi, India</address>
       </div>
     </div>
     <div class="footer-bottom">&copy; 2026 Voyago — Explore Beyond Borders. All rights reserved.</div>

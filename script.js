@@ -11,6 +11,27 @@
 
 document.addEventListener('DOMContentLoaded', function () {
 
+  /* ─────────────────────────────────────────────────
+     0. EMAIL OBFUSCATION
+     Builds mailto links at runtime from data-user /
+     data-domain attributes so addresses aren't sitting
+     in the page as plain, scrapable text.
+  ───────────────────────────────────────────────── */
+  document.querySelectorAll('.js-email').forEach(el => {
+    const user = el.getAttribute('data-user');
+    const domain = el.getAttribute('data-domain');
+    if (user && domain) {
+      el.setAttribute('href', 'mailto:' + user + '@' + domain);
+    }
+  });
+  document.querySelectorAll('.js-email-text').forEach(el => {
+    const user = el.getAttribute('data-user');
+    const domain = el.getAttribute('data-domain');
+    if (user && domain) {
+      el.textContent = user + '@' + domain;
+    }
+  });
+
     const loginScreen = document.getElementById('loginScreen');
   const loginForm = document.getElementById('loginForm');
   const accountChip = document.getElementById('accountChip');

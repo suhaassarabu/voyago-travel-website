@@ -22,6 +22,15 @@
 
   <link rel="stylesheet" href="style.css">
 
+  <!-- Google Analytics (GA4) — replace G-XXXXXXXXXX with your Measurement ID -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-XXXXXXXXXX');
+  </script>
+
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
@@ -120,9 +129,9 @@
       </div>
       <div>
         <h4>Contact</h4>
-        <a href="mailto:info@voyago.com">✉️ info@voyago.com</a>
+        <a class="js-email" href="#" data-user="info" data-domain="voyago.com">✉️ Email Us</a>
         <a href="tel:+911234567890">📞 +91 12345 67890</a>
-        <a>📍 New Delhi, India</a>
+        <address>📍 14 Travel Lane, Connaught Place, New Delhi, India</address>
       </div>
     </div>
     <div class="footer-bottom">&copy; 2026 Voyago — Explore Beyond Borders. All rights reserved.</div>
