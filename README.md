@@ -260,6 +260,14 @@ No additional dependencies or installation are required.
 
 <img width="1366" height="644" alt="image" src="https://github.com/user-attachments/assets/90aec1a2-a310-46be-ba21-a743c235975b" />
 
+<img width="1341" height="634" alt="Screenshot 2026-07-03 092352" src="https://github.com/user-attachments/assets/1c8929a2-3f15-46cf-bcb5-dc9f9f0e30dd" />
+
+<img width="1340" height="628" alt="Screenshot 2026-07-03 092420" src="https://github.com/user-attachments/assets/42572ec2-7e02-4b74-bba1-3126bb95b8fc" />
+
+<img width="1347" height="641" alt="Screenshot 2026-07-03 092447" src="https://github.com/user-attachments/assets/b0ed1121-fd51-4dac-8c64-6af24542c649" />
+
+<img width="1347" height="638" alt="Screenshot 2026-07-03 092518" src="https://github.com/user-attachments/assets/e91af833-6d35-4a02-bb85-6cae7220e7de" />
+
 ---
 
 # 👨‍💻 Author
