@@ -258,7 +258,7 @@ No additional dependencies or installation are required.
 
 # 📸 Preview
 
-<img width="100%" alt="Voyago Preview" src="https://voyaga-travel-website.netlify.app/images/og-cover.jpg"/>
+<img width="1366" height="644" alt="image" src="https://github.com/user-attachments/assets/90aec1a2-a310-46be-ba21-a743c235975b" />
 
 ---
 
