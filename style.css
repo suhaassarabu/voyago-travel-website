@@ -332,6 +332,19 @@ header {
   z-index: 0;
   pointer-events: none;
 }
+.particle-1  { width:5px; height:5px; left:6%;  bottom:10%; animation-duration:18s; animation-delay:0s;    opacity:.35; }
+.particle-2  { width:7px; height:7px; left:16%; bottom:22%; animation-duration:14s; animation-delay:2s;    opacity:.25; }
+.particle-3  { width:4px; height:4px; left:27%; bottom:5%;  animation-duration:20s; animation-delay:4s;    opacity:.4;  }
+.particle-4  { width:8px; height:8px; left:38%; bottom:30%; animation-duration:16s; animation-delay:1s;    opacity:.2;  }
+.particle-5  { width:6px; height:6px; left:49%; bottom:15%; animation-duration:22s; animation-delay:6s;    opacity:.3;  }
+.particle-6  { width:5px; height:5px; left:59%; bottom:8%;  animation-duration:15s; animation-delay:3s;    opacity:.45; }
+.particle-7  { width:9px; height:9px; left:68%; bottom:25%; animation-duration:19s; animation-delay:5s;    opacity:.22; }
+.particle-8  { width:4px; height:4px; left:76%; bottom:18%; animation-duration:17s; animation-delay:7s;    opacity:.35; }
+.particle-9  { width:6px; height:6px; left:84%; bottom:6%;  animation-duration:21s; animation-delay:2.5s;  opacity:.28; }
+.particle-10 { width:7px; height:7px; left:91%; bottom:28%; animation-duration:13s; animation-delay:8s;    opacity:.4;  }
+.particle-11 { width:5px; height:5px; left:12%; bottom:35%; animation-duration:24s; animation-delay:1.5s;  opacity:.3;  }
+.particle-12 { width:8px; height:8px; left:96%; bottom:12%; animation-duration:18s; animation-delay:4.5s;  opacity:.25; }
+
 .particle {
   position: absolute;
   border-radius: 50%;
@@ -990,6 +1003,9 @@ footer {
 body.login-locked {
   overflow: hidden;
 }
+/* login-locked is now applied by JS only if the site owner
+   re-enables the gate; page content is unblocked by default
+   so raw HTML matches rendered content for crawlers/LLMs. */
 
 .login-screen {
   position: fixed;
@@ -1001,13 +1017,16 @@ body.login-locked {
   background:
     linear-gradient(rgba(11,17,32,0.45), rgba(11,17,32,0.78)),
     url("https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?w=1600") center/cover no-repeat;
-}
-
-.login-screen.hide {
   opacity: 0;
   visibility: hidden;
   pointer-events: none;
   transition: 0.35s ease;
+}
+
+.login-screen.show {
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
 }
 
 .login-card {

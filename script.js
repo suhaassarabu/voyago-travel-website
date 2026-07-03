@@ -1,7 +1,7 @@
 // =====================================================
 // VOYAGO — script.js
 // Features:
-//  1. Login gate (name/phone/email, stored in localStorage)
+//  1. Optional account login (opt-in overlay, not a content gate)
 //  2. Mobile hamburger menu toggle
 //  3. Active nav link highlight
 //  4. Scroll-reveal animation (IntersectionObserver)
@@ -14,18 +14,49 @@
 
 document.addEventListener('DOMContentLoaded', function () {
 
+  /* ─────────────────────────────────────────────────
+     0. EMAIL OBFUSCATION
+     Builds mailto links/text at runtime from data-user /
+     data-domain attributes so the address isn't sitting
+     in the raw HTML as plain, scrapable text.
+  ───────────────────────────────────────────────── */
+  document.querySelectorAll('.js-email').forEach(el => {
+    const user = el.getAttribute('data-user');
+    const domain = el.getAttribute('data-domain');
+    if (user && domain) el.setAttribute('href', 'mailto:' + user + '@' + domain);
+  });
+  document.querySelectorAll('.js-email-text').forEach(el => {
+    const user = el.getAttribute('data-user');
+    const domain = el.getAttribute('data-domain');
+    if (user && domain) el.textContent = user + '@' + domain;
+  });
+
     const loginScreen = document.getElementById('loginScreen');
   const loginForm = document.getElementById('loginForm');
   const accountChip = document.getElementById('accountChip');
   const savedUser = JSON.parse(localStorage.getItem('voyagoUser') || 'null');
 
-  function unlockSite(user) {
+  // Page content is visible by default (not gated) so crawlers/LLMs
+  // see the real page in raw HTML. The login card is an opt-in
+  // overlay shown only when the account chip is clicked.
+  function closeLogin(user) {
     document.body.classList.remove('login-locked');
-    if (loginScreen) loginScreen.classList.add('hide');
+    if (loginScreen) loginScreen.classList.remove('show');
     if (accountChip && user && user.name) accountChip.textContent = user.name.split(' ')[0];
   }
 
-  if (savedUser) unlockSite(savedUser);
+  function openLogin() {
+    document.body.classList.add('login-locked');
+    if (loginScreen) loginScreen.classList.add('show');
+  }
+
+  if (savedUser && accountChip && savedUser.name) {
+    accountChip.textContent = savedUser.name.split(' ')[0];
+  }
+
+  if (accountChip) {
+    accountChip.addEventListener('click', openLogin);
+  }
 
   if (loginForm) {
     loginForm.addEventListener('submit', function (e) {
@@ -65,7 +96,7 @@ document.addEventListener('DOMContentLoaded', function () {
       };
 
       localStorage.setItem('voyagoUser', JSON.stringify(user));
-      unlockSite(user);
+      closeLogin(user);
     });
   }
 
