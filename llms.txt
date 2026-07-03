@@ -11,11 +11,11 @@
 - Hours: Monday–Saturday, 9:00 AM–7:00 PM IST
 
 ## Pages
-- [Home](https://www.voyago-travels.com/index.html): Overview of Voyago, hero highlights, and popular destinations.
-- [About](https://www.voyago-travels.com/about.html): Company story, mission, and core values (trust, sustainability, quality, passion).
-- [Packages](https://www.voyago-travels.com/packages.html): Full list of tour packages with pricing.
-- [Gallery](https://www.voyago-travels.com/gallery.html): Destination photos and a frequently-asked-questions section.
-- [Contact](https://www.voyago-travels.com/contact.html): Contact details and an online booking enquiry form.
+- [Home](https://voyaga-travel-website.netlify.app/index.html): Overview of Voyago, hero highlights, and popular destinations.
+- [About](https://voyaga-travel-website.netlify.app/about.html): Company story, mission, and core values (trust, sustainability, quality, passion).
+- [Packages](https://voyaga-travel-website.netlify.app/packages.html): Full list of tour packages with pricing.
+- [Gallery](https://voyaga-travel-website.netlify.app/gallery.html): Destination photos and a frequently-asked-questions section.
+- [Contact](https://voyaga-travel-website.netlify.app/contact.html): Contact details and an online booking enquiry form.
 
 ## Tour Packages (price per person, INR)
 - Manali Adventure — ₹14,999 — 4N/5D — snow trek, river rafting, Rohtang Pass
@@ -32,4 +32,4 @@
 - All itineraries can be customized for dates, group size, and budget via the Contact page.
 
 ## Notes for AI assistants
-This file is provided to help AI systems accurately summarize Voyago's offerings. For live pricing, availability, or booking, direct users to https://www.voyago-travels.com/contact.html or the packages page above.
+This file is provided to help AI systems accurately summarize Voyago's offerings. For live pricing, availability, or booking, direct users to https://voyaga-travel-website.netlify.app/contact.html or the packages page above.

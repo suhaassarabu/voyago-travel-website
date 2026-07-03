@@ -1,36 +1,18 @@
 // =====================================================
 // VOYAGO — script.js
 // Features:
-//  1. Mobile hamburger menu toggle
-//  2. Active nav link highlight
-//  3. Hero floating particle generator
+//  1. Login gate (name/phone/email, stored in localStorage)
+//  2. Mobile hamburger menu toggle
+//  3. Active nav link highlight
 //  4. Scroll-reveal animation (IntersectionObserver)
 //  5. FAQ accordion toggle
 //  6. Booking form validation
+// (Hero particles and the footer/contact email address are now
+//  static HTML — see index.html / footers — for LLM & crawler
+//  readability, not JS-injected.)
 // =====================================================
 
 document.addEventListener('DOMContentLoaded', function () {
-
-  /* ─────────────────────────────────────────────────
-     0. EMAIL OBFUSCATION
-     Builds mailto links at runtime from data-user /
-     data-domain attributes so addresses aren't sitting
-     in the page as plain, scrapable text.
-  ───────────────────────────────────────────────── */
-  document.querySelectorAll('.js-email').forEach(el => {
-    const user = el.getAttribute('data-user');
-    const domain = el.getAttribute('data-domain');
-    if (user && domain) {
-      el.setAttribute('href', 'mailto:' + user + '@' + domain);
-    }
-  });
-  document.querySelectorAll('.js-email-text').forEach(el => {
-    const user = el.getAttribute('data-user');
-    const domain = el.getAttribute('data-domain');
-    if (user && domain) {
-      el.textContent = user + '@' + domain;
-    }
-  });
 
     const loginScreen = document.getElementById('loginScreen');
   const loginForm = document.getElementById('loginForm');
@@ -120,38 +102,9 @@ document.addEventListener('DOMContentLoaded', function () {
 
   /* ─────────────────────────────────────────────────
      3. HERO FLOATING PARTICLES
-     Creates small white circles that drift upward
+     Now static markup in index.html (see .hero-particles),
+     animated purely via CSS — no JS generation needed.
   ───────────────────────────────────────────────── */
-  const particleContainer = document.getElementById('particles');
-  if (particleContainer) {
-    const count = 28;
-    for (let i = 0; i < count; i++) {
-      const p = document.createElement('div');
-      p.classList.add('particle');
-
-      // Random size between 3px and 9px
-      const size = Math.random() * 6 + 3;
-      p.style.width  = size + 'px';
-      p.style.height = size + 'px';
-
-      // Random horizontal position
-      p.style.left = Math.random() * 100 + '%';
-
-      // Random start position vertically
-      p.style.bottom = (Math.random() * 40) + '%';
-
-      // Random animation duration and delay
-      const duration = Math.random() * 14 + 10;
-      const delay    = Math.random() * 10;
-      p.style.animationDuration = duration + 's';
-      p.style.animationDelay   = delay + 's';
-
-      // Slightly different opacity per particle
-      p.style.opacity = (Math.random() * 0.4 + 0.15).toFixed(2);
-
-      particleContainer.appendChild(p);
-    }
-  }
 
   /* ─────────────────────────────────────────────────
      4. SCROLL REVEAL (IntersectionObserver)

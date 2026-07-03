@@ -6,7 +6,7 @@
   <title>About Voyago – Our Story, Mission & Travel Experts</title>
   <meta name="description" content="Discover the story behind Voyago, an India-based travel agency founded in 2018. Learn about our mission, values, and the experts who craft your itineraries.">
   <meta name="keywords" content="about Voyago, travel agency, our story, travel mission">
-  <link rel="canonical" href="https://www.voyago-travels.com/about.html">
+  <link rel="canonical" href="https://voyaga-travel-website.netlify.app/about.html">
   <meta name="robots" content="index, follow">
   <meta name="author" content="Voyago Travels">
   <meta name="theme-color" content="#0b1120">
@@ -14,12 +14,15 @@
   <meta property="og:type" content="website">
   <meta property="og:title" content="About Voyago – Our Story, Mission & Travel Experts">
   <meta property="og:description" content="An India-based travel agency founded in 2018, helping travelers explore the world with thoughtfully designed itineraries.">
-  <meta property="og:url" content="https://www.voyago-travels.com/about.html">
+  <meta property="og:url" content="https://voyaga-travel-website.netlify.app/about.html">
   <meta name="twitter:card" content="summary_large_image">
 
   <link rel="icon" type="image/svg+xml" href="favicon.svg">
   <link rel="apple-touch-icon" href="favicon.svg">
 
+  <link rel="preconnect" href="https://images.unsplash.com">
+  <link rel="preconnect" href="https://embed.tawk.to">
+  <link rel="dns-prefetch" href="https://www.googletagmanager.com">
   <link rel="stylesheet" href="style.css">
 
   <!-- Google Analytics (GA4) — replace G-XXXXXXXXXX with your Measurement ID -->
@@ -35,7 +38,7 @@
   {
     "@context": "https://schema.org",
     "@type": "AboutPage",
-    "url": "https://www.voyago-travels.com/about.html",
+    "url": "https://voyaga-travel-website.netlify.app/about.html",
     "mainEntity": {
       "@type": "TravelAgency",
       "name": "Voyago",
@@ -73,7 +76,7 @@
       <p class="section-subtitle reveal">A team of passionate explorers helping the world travel smarter since 2018.</p>
 
       <div class="about-flex reveal">
-        <img src="https://images.unsplash.com/photo-1488646953014-85cb44e25828?w=700"
+        <img loading="lazy" decoding="async" src="https://images.unsplash.com/photo-1488646953014-85cb44e25828?w=700"
              alt="Travel team planning an itinerary with maps spread on a table">
         <div class="about-text">
           <h2>Our <span>Story</span></h2>
@@ -84,6 +87,11 @@
           <br>
           <a href="packages.html" class="btn">See Our Packages →</a>
         </div>
+      </div>
+
+      <div class="reveal about-extra">
+        <h2 class="about-extra-title">Meet the <span>Team</span></h2>
+        <p>Behind every Voyago itinerary is a small team of destination specialists, travel planners and on-ground partners who have actually stayed at the hotels and walked the trails we recommend. Rather than reselling packages we've never seen, we build each trip from first-hand experience — checking room quality, verifying transfer timings, and negotiating fair rates directly with local operators. That hands-on approach is what lets us keep prices transparent while still promising a genuinely memorable trip.</p>
       </div>
 
       <!-- Values grid -->
@@ -129,7 +137,7 @@
       </div>
       <div>
         <h4>Contact</h4>
-        <a class="js-email" href="#" data-user="info" data-domain="voyago.com">✉️ Email Us</a>
+        <a href="mailto:info&#64;voyago.com">✉️ info&#64;voyago.com</a>
         <a href="tel:+911234567890">📞 +91 12345 67890</a>
         <address>📍 14 Travel Lane, Connaught Place, New Delhi, India</address>
       </div>
@@ -138,7 +146,7 @@
   </div>
 </footer>
 
-<script src="script.js"></script>
+<script src="script.js" defer></script>
 
 <!-- Tawk.to Live Chat Widget -->
 <script type="text/javascript">
